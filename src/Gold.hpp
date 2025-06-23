@@ -10,4 +10,7 @@ class Gold : public Event {
     bool die() const noexcept override {
         return false;
     }
+    bool reward() const noexcept override {
+        return true;
+    }
 };

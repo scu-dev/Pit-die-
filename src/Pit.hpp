@@ -10,4 +10,7 @@ class Pit : public Event {
     bool die() const noexcept override {
         return true;
     }
+    bool reward() const noexcept override {
+        return false;
+    }
 };
