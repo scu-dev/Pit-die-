@@ -1,6 +1,6 @@
 ﻿cmake_minimum_required(VERSION "3.20")
 
-project("pitdie")
+project("pit_die")
 
 #------------Basic-----------------
 set(CMAKE_CXX_STANDARD 20)
